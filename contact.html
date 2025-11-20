@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mak Pizza & Burger</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Mak <span>Pizza & Burger</span></div>
+        <div class="menu-toggle" id="mobile-menu">☰</div>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="section-title hidden">
+            <h2>Get In Touch</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="contact-wrapper hidden">
+            <div class="contact-info">
+                <h3 style="font-size: 2rem; margin-bottom: 1rem;">Visit Us</h3>
+                <p style="color: #aaa; margin-bottom: 2rem;">
+                    We are open 7 days a week. Come visit us for the best burger experience in town!
+                </p>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <strong style="color: var(--primary-orange);">Address:</strong><br>
+                    123 Flavor Street, Food City
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <strong style="color: var(--primary-orange);">Phone:</strong><br>
+                    +1 (555) 987-6543
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <strong style="color: var(--primary-orange);">Email:</strong><br>
+                    hello@makburger.com
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label style="margin-bottom: 5px; display: block;">Your Name</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label style="margin-bottom: 5px; display: block;">Your Email</label>
+                    <input type="email" required>
+                </div>
+                <div class="form-group">
+                    <label style="margin-bottom: 5px; display: block;">Message</label>
+                    <textarea rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 <span>Mak Pizza & Burger</span>. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
